@@ -52,10 +52,6 @@ Mais do que um app de hamburgueria, este projeto mostra maturidade na construç�
 
 ## 🏗 Arquitetura
 
----
-
-## 🏗 Arquitetura
-
 ```text
 HamburgueriaZ (Improved Version)
 │
