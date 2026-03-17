@@ -70,7 +70,7 @@ Domain Layer
 
 ---
 
-## 🧠 Design Decisions
+## 🧠 Decisões de Projeto
 
 O projeto foi estruturado com foco em separação de responsabilidades e preparação para escalabilidade.
 
@@ -103,7 +103,7 @@ Result → UI Update / Email Intent
 
 ---
 
-## 📌 Lessons Learned
+## 📌 Lições Aprendidas
 
 Durante a evolução do projeto, aprimorei:
 
