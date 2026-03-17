@@ -1,127 +1,105 @@
-# 🍔 HamburgueriaZ — Original Version
+<div align="center">
+
+# 🍔 HamburgueriaZ  
+### From Academic Project to Structured Mobile Architecture
+
+---
+
+![Android](https://img.shields.io/badge/Android-34A853?style=for-the-badge&logo=android&logoColor=white)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Architecture](https://img.shields.io/badge/Layered_Architecture-00BFA6?style=for-the-badge)
+![AI Vision](https://img.shields.io/badge/AI_Vision-00BFA6?style=for-the-badge)
+
+</div>
 
 ---
 
 # 🇧🇷 Português
 
-## 📌 Contexto
+## 💙 Sobre o Repositório
 
-Esta é a versão original do projeto **HamburgueriaZ**, desenvolvida como atividade acadêmica na disciplina de Desenvolvimento Mobile.
+Este repositório documenta a evolução do projeto **HamburgueriaZ**.
 
-O objetivo foi aplicar conceitos fundamentais de Android utilizando **Java + XML**, com foco em:
+Ele contém duas versões distintas:
 
-- Manipulação de componentes de interface  
-- Eventos de clique  
-- Cálculo simples de valores  
-- Uso de Intent para envio de email  
+### 📂 original/
+Versão acadêmica inicial, desenvolvida com foco em aprendizado de conceitos básicos de Android.
 
----
+- Lógica concentrada na `MainActivity`
+- Estrutura simples
+- Implementação funcional direta
 
-## 📱 Funcionalidades
-
-- Inserção do nome do cliente  
-- Seleção de adicionais (Bacon, Queijo, Onion Rings)  
-- Controle de quantidade  
-- Cálculo do valor total  
-- Envio do resumo do pedido por email  
-
----
-
-## 🏗 Estrutura Inicial
-
-Nesta versão, toda a lógica foi implementada diretamente na `MainActivity`.
-
-Essa abordagem foi essencial para consolidar:
-
-- Entendimento do ciclo de vida da Activity  
-- Manipulação de eventos  
-- Organização básica de código Android  
-
----
-
-## 📌 Aprendizados
-
-Durante o desenvolvimento desta versão, consolidei:
-
-- Estrutura de projeto Android  
-- Integração entre layout XML e código Java  
-- Uso de lógica condicional  
-- Construção de strings dinâmicas  
-- Envio de dados via Intent  
-
----
-
-## 🚀 Evolução
-
-Após concluir esta etapa acadêmica, o projeto foi refatorado aplicando:
+### 📂 improved/
+Versão refatorada com aplicação de princípios de arquitetura.
 
 - Separação de responsabilidades  
-- Organização em camadas  
+- Organização em camadas (Presentation / Domain / Service)  
 - Isolamento da lógica de negócio  
+- Estrutura preparada para futuras integrações  
 
-A versão evoluída pode ser encontrada na pasta:
+---
 
-📂 `improved/`
+## 🎯 Objetivo
+
+Demonstrar evolução técnica:
+
+Projeto acadêmico → Arquitetura estruturada → Preparação para Agente Inteligente
+
+---
+
+## 🤖 Próxima Etapa
+
+A próxima evolução do projeto será a implementação de um **Agente Inteligente de Atendimento**, permitindo:
+
+- Recomendações automáticas  
+- Sugestão de combinações  
+- Simulação de atendimento digital  
+- Preparação para integração com IA generativa  
 
 ---
 
 # 🇺🇸 English
 
-## 📌 Context
+## 💙 About This Repository
 
-This is the original version of the **HamburgueriaZ** project, developed as an academic assignment in a Mobile Development course.
+This repository documents the evolution of the **HamburgueriaZ** project.
 
-The goal was to apply fundamental Android concepts using **Java + XML**, focusing on:
+It contains two distinct versions:
 
-- UI component manipulation  
-- Click event handling  
-- Basic price calculation  
-- Email integration via Intent  
+### 📂 original/
+Initial academic implementation focused on learning Android fundamentals.
 
----
+- Logic concentrated in `MainActivity`
+- Simple structure
+- Direct functional implementation
 
-## 📱 Features
-
-- Customer name input  
-- Selection of add-ons (Bacon, Cheese, Onion Rings)  
-- Quantity control  
-- Total price calculation  
-- Email order summary  
-
----
-
-## 🏗 Initial Structure
-
-In this version, all logic was implemented directly inside `MainActivity`.
-
-This approach helped consolidate:
-
-- Understanding of Activity lifecycle  
-- Event handling  
-- Basic Android code organization  
-
----
-
-## 📌 Lessons Learned
-
-During this version, I strengthened my understanding of:
-
-- Android project structure  
-- XML and Java integration  
-- Conditional logic  
-- Dynamic string building  
-- Data transfer using Intent  
-
----
-
-## 🚀 Evolution
-
-After completing this academic stage, the project was fully refactored applying:
+### 📂 improved/
+Refactored version applying architectural principles.
 
 - Separation of concerns  
-- Layered organization  
+- Layered organization (Presentation / Domain / Service)  
 - Business logic isolation  
+- Structure prepared for future integrations  
 
-The evolved version can be found in:
+---
 
-📂 `improved/`
+## 🎯 Purpose
+
+To demonstrate technical growth:
+
+Academic Project → Structured Architecture → Intelligent Agent Preparation
+
+---
+
+## 🤖 Next Step
+
+The next evolution will introduce an **Intelligent Order Agent**, enabling:
+
+- Automatic recommendations  
+- Combination suggestions  
+- Digital assistance simulation  
+- AI-ready integration  
+
+---
+
+Developed with 💙 by Nayara Berti
