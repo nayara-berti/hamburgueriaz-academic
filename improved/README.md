@@ -21,6 +21,12 @@ From academic implementation to structured mobile engineering.
 
 ---
 
+## 🎥 Demo
+
+![HamburgueriaZ Demo](https://github.com/nayara-berti/hamburgueriaz-academic/raw/main/improved/HamburgueriaZ_Demo.gif)
+
+---
+
 ## 💙 Sobre o Projeto
 
 Este projeto representa minha evolução como desenvolvedora e engenheira de software.
