@@ -151,6 +151,14 @@ agent/     → (em breve) Agente Inteligente
 
 ---
 
+## 🎥 Application Demo
+
+<p align="center">
+  <img src="https://github.com/nayara-berti/hamburgueriaz-academic/raw/main/improved/HamburgueriaZ_Demo.gif" width="300"/>
+</p>
+
+---
+
 ## 💙 About the Project
 
 This project represents my growth as a software engineer.
