@@ -13,8 +13,6 @@ From academic implementation to structured mobile engineering.
 ![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-00BFA6?style=for-the-badge)
 ![AI Vision](https://img.shields.io/badge/AI_Ready-00BFA6?style=for-the-badge)
 
-</div>
-
 ---
 
 # 🇧🇷 Português
