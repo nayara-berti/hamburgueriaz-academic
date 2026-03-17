@@ -10,139 +10,235 @@ From academic implementation to structured mobile engineering.
 ![Android](https://img.shields.io/badge/Android-34A853?style=for-the-badge&logo=android&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![XML](https://img.shields.io/badge/XML-005FAD?style=for-the-badge)
-![Clean Architecture](https://img.shields.io/badge/Clean_Architecture-00BFA6?style=for-the-badge)
-![AI Vision](https://img.shields.io/badge/AI_Ready-00BFA6?style=for-the-badge)
+![Architecture](https://img.shields.io/badge/Layered_Architecture-00BFA6?style=for-the-badge)
+![AI Ready](https://img.shields.io/badge/AI_Ready-00BFA6?style=for-the-badge)
+
+</div>
 
 ---
 
 # 🇧🇷 Português
 
+---
+
 ## 💙 Sobre o Projeto
 
 Este projeto representa minha evolução como desenvolvedora e engenheira de software.
 
-A versão **original** foi construída como exercício acadêmico.
+A versão **original** foi construída como exercício acadêmico.  
 A versão **improved** demonstra crescimento técnico através de:
 
-- Refatoração estruturada
-- Separação de responsabilidades
-- Organização em camadas (model/service)
-- Melhoria na experiência do usuário
-- Aplicação de boas práticas de arquitetura
-- Uso real de Git (branch, rebase, sincronização remota)
+- Refatoração estruturada  
+- Separação de responsabilidades  
+- Organização em camadas  
+- Aplicação de princípios de arquitetura  
+- Melhoria na experiência do usuário  
+- Uso real de Git (branch, sincronização remota)
 
 Mais do que um app de hamburgueria, este projeto mostra maturidade na construção de software.
 
 ---
 
-## 📱 Funcionalidades Implementadas
+## 📱 Funcionalidades
 
-| Recurso | Descrição |
-|----------|------------|
-| 🛒 Carrinho | Adição de itens com cálculo automático |
-| 🔢 Controle de Quantidade | Incremento e decremento com validação |
-| 🎨 UI Personalizada | Fonte Tahoma + seletor dinâmico de cores |
-| 📧 Envio por Email | Resumo completo do pedido via Intent |
-| 🆔 Código do Cliente | Identificador único gerado automaticamente |
-| 📦 Resumo Estruturado | Descrição clara dos itens comprados |
+| Recurso | Implementação Técnica |
+|----------|----------------------|
+| 🛒 **Carrinho Inteligente** | Gerenciado pela classe `Cart` com cálculo delegado ao `PriceCalculator` |
+| 🔢 **Controle de Quantidade** | Validação aplicada antes da atualização da UI |
+| 🎨 **UI Customizada** | Fonte Tahoma integrada + seletor dinâmico de cores |
+| 📧 **Envio por Email** | Integração via `Intent.ACTION_SEND` |
+| 🆔 **Código Único** | Identificador automático gerado na criação do pedido |
+| 📦 **Resumo Estruturado** | Construído a partir do objeto `Order` |
 
 ---
 
 ## 🏗 Arquitetura
 
 ```text
-HamburgueriaZ (Improved Version)
-│
-├── MainActivity.java
-│
+Presentation Layer
+└── MainActivity.java
+        │
+        ▼
+Domain Layer
 ├── model/
 │   ├── Cart.java
 │   └── Order.java
 │
 └── service/
     └── PriceCalculator.java
+```
 
 ---
 
-## 🤖 Visão Estratégica — Próxima Evolução
+## 🧠 Design Decisions
 
-### 🚀 Agente de Pedido (em desenvolvimento)
+O projeto foi estruturado com foco em separação de responsabilidades e preparação para escalabilidade.
 
-A próxima melhoria do projeto será a implementação de um **Agente Inteligente de Pedido**, capaz de:
+### 📐 Diagrama Conceitual
 
-- Interpretar preferências do cliente
-- Sugerir combinações automaticamente
-- Recomendar adicionais
-- Simular um atendimento digital
-- Evoluir para integração com IA generativa
+```text
+User Interaction
+        │
+        ▼
+MainActivity (UI Layer)
+        │
+        ▼
+Cart / Order (Domain Model)
+        │
+        ▼
+PriceCalculator (Business Logic)
+        │
+        ▼
+Result → UI Update / Email Intent
+```
 
-A arquitetura atual foi pensada para permitir essa expansão.
+---
 
-Este projeto não é apenas um exercício — é uma base para crescimento contínuo.
+## 🔎 Justificativa Técnica
+
+- Lógica isolada da interface  
+- Redução de acoplamento  
+- Facilidade de manutenção  
+- Preparação para integração com Agente Inteligente  
+
+---
+
+## 📌 Lessons Learned
+
+Durante a evolução do projeto, aprimorei:
+
+- Organização em camadas  
+- Aplicação de princípios de arquitetura  
+- Separação entre UI e regra de negócio  
+- Controle de versão com Git  
+- Planejamento para escalabilidade futura  
+
+---
+
+## 🤖 Próxima Evolução — Agente Inteligente de Pedido
+
+O projeto evoluirá para incluir um **Agente Inteligente**, capaz de:
+
+- Interpretar preferências do cliente  
+- Sugerir combinações automaticamente  
+- Recomendar adicionais  
+- Simular atendimento digital  
+- Permitir futura integração com IA generativa  
+
+A arquitetura atual já foi preparada para essa expansão.
 
 ---
 
 ## 📈 Evolução do Projeto
 
-original/ → Implementação acadêmica básica  
-improved/ → Arquitetura refatorada e preparada para escalar  
-agent-version/ → (em breve) Integração com agente inteligente  
+```text
+original/  → Implementação acadêmica
+improved/  → Arquitetura estruturada
+agent/     → (em breve) Agente Inteligente
+```
 
 ---
 
-# 🇺🇸 English Version
+# 🇺🇸 English
+
+---
 
 ## 💙 About the Project
 
 This project represents my growth as a software engineer.
 
-The **original version** was built as an academic assignment.
-The **improved version** demonstrates technical evolution through:
+The **original version** was developed as an academic assignment.  
+The **improved version** demonstrates:
 
-- Structured refactoring
-- Separation of concerns
-- Layered organization (model/service)
-- UX improvements
-- Real Git workflow experience
+- Structured refactoring  
+- Separation of concerns  
+- Layered organization  
+- Application of architectural principles  
+- UX improvements  
+- Real Git workflow experience  
 
 This is more than a burger ordering app — it reflects architectural maturity.
 
 ---
 
-## 📱 Implemented Features
+## 📱 Features
 
-| Feature | Description |
-|----------|------------|
-| 🛒 Cart System | Dynamic item addition and total calculation |
-| 🔢 Quantity Control | Increment and validation logic |
-| 🎨 Custom UI | Tahoma font and dynamic text selector |
-| 📧 Email Integration | Complete order summary via Intent |
-| 🆔 Client Code | Automatic unique identifier |
-| 📦 Structured Summary | Clear description of purchased items |
+| Feature | Technical Implementation |
+|----------|------------------------|
+| 🛒 **Smart Cart** | Managed by `Cart` class with delegated calculation to `PriceCalculator` |
+| 🔢 **Quantity Control** | Validation before UI update |
+| 🎨 **Custom UI** | Tahoma font integration + dynamic text selector |
+| 📧 **Email Integration** | Built using `Intent.ACTION_SEND` |
+| 🆔 **Unique Client Code** | Automatically generated identifier |
+| 📦 **Structured Summary** | Built from `Order` object |
 
 ---
 
-## 🤖 Strategic Vision — Next Step
+## 🏗 Architecture
 
-### 🚀 Order Agent (Coming Soon)
+```text
+Presentation Layer
+└── MainActivity.java
+        │
+        ▼
+Domain Layer
+├── model/
+│   ├── Cart.java
+│   └── Order.java
+│
+└── service/
+    └── PriceCalculator.java
+```
 
-The next improvement will introduce an **Intelligent Order Agent** capable of:
+---
 
-- Understanding customer preferences
-- Suggesting combinations
-- Recommending add-ons
-- Simulating digital assistance
-- Preparing the system for AI integration
+## 🧠 Design Decisions
+
+The project was structured to support separation of concerns and future scalability.
+
+### 📐 Conceptual Diagram
+
+```text
+User Interaction
+        │
+        ▼
+MainActivity (UI Layer)
+        │
+        ▼
+Cart / Order (Domain Model)
+        │
+        ▼
+PriceCalculator (Business Logic)
+        │
+        ▼
+Result → UI Update / Email Intent
+```
+
+---
+
+## 📌 Lessons Learned
+
+Through this evolution I improved:
+
+- Layered structuring  
+- Architectural thinking  
+- Separation between UI and business logic  
+- Git workflow management  
+- Scalability planning  
+
+---
+
+## 🤖 Next Evolution — Intelligent Order Agent
+
+The project will evolve to include an **Intelligent Order Agent** capable of:
+
+- Understanding customer preferences  
+- Suggesting combinations  
+- Recommending add-ons  
+- Simulating digital assistance  
+- Preparing for AI integration  
 
 The current architecture was designed to support this expansion.
-
----
-
-## 🚀 Project Evolution
-
-original/ → Basic academic implementation  
-improved/ → Refactored and scalable architecture  
-agent-version/ → (soon) Intelligent ordering agent  
 
 ---
 
