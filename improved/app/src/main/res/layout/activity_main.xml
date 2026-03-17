@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monte seu Pedido"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="@font/tahoma_regular"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Nome -->
+        <EditText
+            android:id="@+id/edtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite seu nome"
+            android:textColor="#000000"
+            android:fontFamily="@font/tahoma_regular"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Produtos -->
+        <CheckBox
+            android:id="@+id/chkBacon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bacon"
+            android:textColor="@color/text_selector"
+            android:fontFamily="@font/tahoma_regular"/>
+
+        <CheckBox
+            android:id="@+id/chkQueijo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Queijo"
+            android:textColor="@color/text_selector"
+            android:fontFamily="@font/tahoma_regular"/>
+
+        <CheckBox
+            android:id="@+id/chkOnion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onion Rings"
+            android:textColor="@color/text_selector"
+            android:fontFamily="@font/tahoma_regular"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Quantidade -->
+        <TextView
+            android:id="@+id/txtQuantidadeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantidade"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:fontFamily="@font/tahoma_regular"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <Button
+                android:id="@+id/btnMenos"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="-"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/txtQuantidade"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:fontFamily="@font/tahoma_regular"/>
+
+            <Button
+                android:id="@+id/btnMais"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="+"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+        <!-- Resumo -->
+        <TextView
+            android:id="@+id/txtResumo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carrinho vazio"
+            android:textColor="#000000"
+            android:fontFamily="@font/tahoma_regular"
+            android:padding="12dp"
+            android:background="#EEEEEE"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Botões -->
+        <Button
+            android:id="@+id/btnAdicionar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Adicionar ao Carrinho"
+            android:fontFamily="@font/tahoma_regular"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnFinalizar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Finalizar Pedido"
+            android:fontFamily="@font/tahoma_regular"/>
+
+    </LinearLayout>
+
+</ScrollView>
