@@ -56,14 +56,17 @@ Mais do que um app de hamburgueria, este projeto mostra maturidade na construç�
 
 ## 🏗 Arquitetura
 
-MainActivity
-|
+```text
+HamburgueriaZ (Improved Version)
+│
+├── MainActivity.java
+│
 ├── model/
-│  ├──Cart.jav
-|  ├── Order.java
-|
-├── service/
-├── PriceCalculator.java
+│   ├── Cart.java
+│   └── Order.java
+│
+└── service/
+    └── PriceCalculator.java
 
 ---
 
